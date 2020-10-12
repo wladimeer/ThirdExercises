@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin-top: 6px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 500px;
+    padding: 4px;
+    display: flex;
+    border-radius: 3px;
+    background: #000000;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+a {
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    background: #2B2B2A;
+}
+
+.content {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+}
+
+.content__h1 {
+    font-family: monospace;
+}
+
+.content__inputs {
+    width: 90%;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.content__notes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__weighings {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__input {
+    width: 80%;
+}
+
+.content__buttons {
+    width: 90%;
+}
+
+.content__button {
+    width: 100%;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.content__result {
+    width: 90%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.content__message {
+    width: 90%;
+    text-align: center;
+}
+
+.content__table {
+    width: 100%;
+    visibility: hidden;
+    box-sizing: border-box;
+}
